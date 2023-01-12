@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <title>JS mini Calculator</title>
+  </head>
+  <body>
+    <div class="calculator">
+      <div class="screen">
+        <br />
+        <div class="button">
+          <button>7</button>
+          <button>8</button>
+          <button>9</button>
+          <button>+</button>
+          <button>4</button>
+          <button>5</button>
+          <button>6</button>
+          <button>-</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>*</button>
+          <button>0</button>
+          <button>.</button>
+          <button>\</button>
+          <!-- 제일 중요한 equals id는 class는 html를 써내려감과 동시에
+        바로비로 만들어주는 것이 좋다. 다음에 css로 넘어가고 그다음은 app.js순 -->
+          <button id="equals">=</button>
+        </div>
+
+        <br />
+        <!-- 버튼 클릭하면 다 지울 수 있게 -->
+        <button id="clear">CLEAR</button>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
