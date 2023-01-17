@@ -1,0 +1,70 @@
+body {
+  display: flex;
+  background-color: rgb(245, 227, 245);
+  justify-content: center;
+  align-items: center;
+  /* 반응형웹의 한계가있을 때 %와 vh를 쓴다 */
+  /* vh는 전체웹의크기의 따라 상대적으로 반응  */
+  /* 비율대비 정중앙 */
+  height: 100vh;
+}
+.calculator {
+  background-color: rgb(136, 207, 235);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* 계산기 스크린 부분 */
+.screen {
+  width: 240px;
+  background-color: rgb(175, 220, 175);
+  font-size: 40px;
+  text-align: end;
+  padding: 5px;
+}
+
+.buttons {
+  width: 250px;
+}
+
+button {
+  background-color: rgb(181, 229, 245);
+  border: none;
+  /* 텍스트색깔 */
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  margin: 4px;
+}
+
+button:hover {
+  background-color: rgb(17, 65, 83);
+}
+
+button:active {
+  background-color: rgb(36, 67, 167);
+}
+
+#equals {
+  background-color: rgb(241, 189, 240);
+}
+
+#equals:hover {
+  background-color: rgb(179, 2, 2);
+}
+
+#equals:active {
+  background-color: rgb(247, 102, 57);
+}
+
+#clear {
+  width: 100%;
+  background-color: rgb(189, 248, 249);
+  font-size: 30px;
+}
+
+#clear:hover {
+  background-color: rgb(209, 241, 164);
+}
